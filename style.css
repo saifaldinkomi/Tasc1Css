@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color:cornsilk;
+   overflow: hidden;
+   position: static ;
+}
+.contener{
+    width: 80%;
+    margin: auto;
+}
+.logo{
+        float: left;
+}
+.logo img{
+    width: 50%;
+}
+.list ul{
+    float: right;
+}
+.list ul li{
+   float: left;
+   list-style-type: none;
+   text-transform: uppercase;
+   margin-right: 10px;
+}
+.list a{
+    text-decoration: none;
+}
+.title{
+    text-align: center ;
+    margin-top: 20px;
+}
+.title h2{
+    text-transform: uppercase ;
+}
+.images{
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+.image{
+    width: 32.33%;
+    float: left;
+    margin: 5px;
+}
+
+.image img{
+    width: 100%;
+}
+.image{
+    text-align: center;
+     text-transform: uppercase;
+}
+.paragraph{
+    text-align: center;
+    margin-top: 10px;
+    background-color: aqua;
+}
+.paragraph h2{
+    text-transform:uppercase ;
+}
